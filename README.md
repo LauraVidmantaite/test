@@ -4,12 +4,12 @@
 si repozitorija skirta tam, kad ismokti naudotis git projektu versijavimo kontroles komandines eilutes sasaja (GIT CLI). Tam jums reikes parsisiusti ir isirasyti: https://git-scm.com/downloads
 
 ## Repozitorijos parsiuntimas
-Atsidarykite GIT CLI (Git bash)
-Naudodami komanda cd pakeiskite savo darbine kategorija i ta, kurioje norite parsisiusti repozitorija
-Parsisiuskite repozitorija
-Pakeiskite darbine kategorija i parsiustos repozitorijos kategorija cd <repozitroijos-pavadinimas>
-Parsisiunte ir isirase GIT CLI, parsisiuskite repozitorija esamame kataloge
- git clone https://github.com/laa-vii/test
+1. Atsidarykite GIT CLI (Git bash)
+2. Naudodami komanda cd pakeiskite savo darbine kategorija i ta, kurioje norite parsisiusti repozitorija
+3. Parsisiuskite repozitorija
+4. Pakeiskite darbine kategorija i parsiustos repozitorijos kategorija cd <repozitroijos-pavadinimas>git ad
+ Parsisiunte ir isirase GIT CLI, parsisiuskite repozitorija esamame kataloge 
+git clone https://github.com/laa-vii/test
 ## Pagrindinės komandos
     git add - failu paruosimas patvirtinimui
     git add <failo-pavadinimas> -> prideda faila nurodytu pavadinimu
