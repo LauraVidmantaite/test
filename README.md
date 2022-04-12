@@ -1,8 +1,15 @@
 
 #Mano pirmoji GIT repozitorija
 
+si repozitorija skirta tam, kad ismokti naudotis git projektu versijavimo kontroles komandines eilutes sasaja (GIT CLI). Tam jums reikes parsisiusti ir isirasyti: https://git-scm.com/downloads
+
 ## Repozitorijos parsiuntimas
- git clone <repozitorijos-nuoroda>
+Atsidarykite GIT CLI (Git bash)
+Naudodami komanda cd pakeiskite savo darbine kategorija i ta, kurioje norite parsisiusti repozitorija
+Parsisiuskite repozitorija
+Pakeiskite darbine kategorija i parsiustos repozitorijos kategorija cd <repozitroijos-pavadinimas>
+Parsisiunte ir isirase GIT CLI, parsisiuskite repozitorija esamame kataloge
+ git clone https://github.com/laa-vii/test
 ## Pagrindinės komandos
     git add - failu paruosimas patvirtinimui
     git add <failo-pavadinimas> -> prideda faila nurodytu pavadinimu
@@ -20,3 +27,4 @@ git commit -> komanda, skirta uztvirtinit projekto pakitima
     git commit - m "zinute apibudinanti pakitima"
 
 git push -> komanda, skirta paviesinti commit;us i atitinkama globalia saka
+
